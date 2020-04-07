@@ -31,8 +31,8 @@ DEFAULTUSER = Config.ALIVE_NAME if Config.ALIVE_NAME else uname().node
 async def amireallyalive(on):
     """ For .on command, check if the bot is running.  """
     await on.edit(
-                     "        Welcome\n"
                      " \n"
+                     "         WELCOME \n"
                      "──────────────────── \n"
                      f"Telethon version: {version.__version__} \n"
                      f"Python: {python_version()} \n"
@@ -44,6 +44,7 @@ async def amireallyalive(on):
                      f"Owner: `3Cube TeKnoways` \n"
                      " \n"
                      f"Website: https://www.facebook.com/Teknoways \n"
-                     " \n"
+                     "──────────────────── \n"
                      f"Userbot: testuserbot \n"
+                     "
                      "`i can't die`")    
